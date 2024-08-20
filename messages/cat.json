@@ -1,0 +1,176 @@
+{
+    "index":{
+       
+        "subtitulo":"La teva Agència de Servei Personalitzat a Andorra",
+        "paragrafo":"A Hilltop Agency t'acompanyem de principi a fi en el teu procés d'instal·lació a Andorra.",
+        "boton":"Contactan's",
+        "empresa": "Empresa",
+        "residencia": "Residencia",
+        "immo": "Immobiliaria",
+        "conser": "Consergeria"
+
+    },
+
+    "immo": {
+        "pagina":"HillTop Agency - Immobiliaria Andorra",
+        "titulo": "Immobiliaria.",
+        "paragrafo":"Un dels passos més importants és trobar habitatge a Andorra, per això a HillTop Agency amb 10 anys d'experiència al sector immobiliari, volem facilitar als nostres clients la cerca ocupant-nos personalment de tot el procés. Ens adaptem a les necessitats de cada client per assegurar la millor qualitat de servei i experiència.",
+        "boton": "Contacta'ns"
+
+    },
+
+    "residencia": {
+        "pagina":"HillTop Agency - Residencia a Andorra",
+        "titulo":"Residencia a Andorra",
+        "paragrafo":"A HILLTOP AGENCY, t'acompanyarem en tota la tramitació de la residència passiva o activa a Andorra, facilitant en tot moment el procés perquè en puguis gaudir el més aviat possible.",
+        "boton":"Contactan's",
+        "unotitulo":"Residencia Activa",
+        "unoparagrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la.",
+        "dostitulo":"Residencia Passiva",
+        "dosparagrafo":"Els permisos de residència passiva permeten residir físicament a Andorra, però no donen dret a treballar. Hi ha fins a tres tipus de residència passiva que es poden sol·licitar a Andorra",
+        "trestitulo": "Residència per Reagrupament",
+        "tresparagrafo": "Aquest permís permet a persones que tinguin permís de residència a Andorra sol·licitar el permís de residència per;",
+        "dosboton":"Mes Informacio!"
+
+    },
+    
+
+    "activa": {
+        "titulo":"Residencia Activa",
+        "paragrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la:",
+        "boton":"Contactan's",
+        "unotitulo":"Residència activa per compte propi",
+        "unoparagrafo":"Autoritza el sol·licitant a residir ia exercir una activitat per compte propi de manera permanent mitjançant la constitució d'una empresa. Cal fixar la residència principal efectiva a Andorra i residir-hi durant almenys 183 dies l'any.",
+        "dostitulo":"Residència activa per compte aliè",
+        "dosparagrafo":"Autoritza el sol·licitant a residir ia treballar al Principat d'Andorra de manera permanent i efectiva obtenint un contracte laboral indefinit per una empresa andorrana. Cal fixar la residència principal efectiva a Andorra i residir-hi durant almenys 183 dies l'any.",
+        "tituloform":"Contactan's",
+        "paraform": "Com el podem ajudar?",
+        "nombre":"Nom",
+        "email": "Email",
+        "concepto": "Concepte",
+        "mensaje": "Missatge"
+    },
+
+    "pasiva": {
+        "titulo": "Residencia Pasiva",
+        "paragrafo":"Els permisos de residència passiva permeten residir físicament a Andorra, però no donen dret a treballar. Hi ha fins a tres tipus de residència passiva que es poden sol·licitar a Andorra",
+        "unotitulo": "Residència sense activitat lucrativa",
+        "unoparagrafo": "Autoriza a residir en el país sin ejercer actividad laboral ni profesional. Este tipo de residencia se realiza por inversión en activos andorranos (inversión mínima de 600.000€) más un depósito reembolsable de 47.500 euros a l’AFA (Agencia Financiera Andorrana) y 9.500 euros adicionales por persona a cargo. Se debe establecer la residencia principal y efectiva en el Principado de Andorra durante al menos 90 días al año.",
+        "dostitulo": "Residència per a professionals amb projecció internacional",
+        "dosparagrafo":"Aquest tipus de residència passiva a Andorra està dirigida a professionals amb una activitat internacional gairebé sense intervenció al mercat andorrà. La seu o la base de l'activitat ha d'estar situada al Principat d'Andorra i almenys el 85 % dels serveis prestats han de tenir com a destinataris persones o entitats no residents al Principat. S'haurà de lliurar un dipòsit reemborsable a l'AFA (Agència Financera Andorrana) de 47.500 euros i 9.500 euros addicionals per casa persona a nom del titular, i residir a Andorra durant almenys 90 dies l'any",
+        "trestitulo":"Residència per raons d'interès científic, cultural o esportiu",
+        "tresparagrafo": "Aquest tipus de residència està adreçada a persones que tenen reputació i acreditació internacional reconeguda. Almenys un 85% dels serveis prestats han de ser utilitzats a l'estranger. S'haurà de lliurar un dipòsit reemborsable a l'AFA (Agència Financera Andorrana) de 47.500 euros i 9.500 euros addicionals per casa persona a nom del titular, i residir a Andorra durant almenys 90 dies l'any."
+    },
+
+    
+
+    "conser": {
+        "pagina":"HillTop Agency - Serveis Administratius i Consergeria",
+        "titulo":"Serveis Administratius i Consergeria",
+        "paragrafo":"A Hilltop Agency, entenem que el teu temps i tranquil·litat tenen un gran valor. Ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa. A continuació, et presentem els nostres serveis principals:",
+        "unotitulo":"Tràmits Administratius",
+        "unoparagrafo": "Ens encarreguem de tota la burocràcia i tràmits administratius que necessitis realitzar, tant a nivell personal com empresarial. Des de l'obtenció de llicències i permisos fins a la gestió de documentació, estem aquí per fer que aquests processos siguin àgils i eficients.",
+        "dostitulo": "Gestió de propietats de lloguer",
+        "dosparagrafo": "Si ets propietari de propietats en lloguer, ens encarreguem de tot, des de la recerca d'inquilins, revisió, gestió de contractes, manteniment, assistència a reunions de comunitat i rebuts de lloguer assegurant que la teva inversió estigui en bones mans.",
+        "trestitulo": "Organització i Seguiment de Reformes en Immobles",
+        "tresparagrafo": "Si estàs planejant una reforma en el teu immoble, nosaltres t'acompanyem en tot el procés. Des de la planificació inicial fins a la supervisió i coordinació dels treballs, assegurem que el teu projecte es porti a terme segons les teves expectatives i en els terminis establerts.",
+        "fortitulo": "Intervenció en Cas d'Accident",
+        "forparagrafo": "En situacions d'emergència, pots comptar amb la nostra intervenció immediata. Estem preparats per assistir-te en casos d'accidents o qualsevol esdeveniment inesperat, assegurant que rebs l'ajuda adequada i les gestions necessàries per resoldre la situació de manera ràpida i eficaç amb la companyia d'assegurances.",
+        "cinctitulo":"Ajuda en la Gestió de la Llar", 
+        "cincparagrafo": "Facilitem la teva vida diària encarregant-nos de les gestions relacionades amb la teva llar. Des dels pagaments de factures fins a la programació de serveis, estem aquí per garantir que tot estigui en ordre i funcioni sense contratemps, permetent-te gaudir al màxim de la teva llar.",
+        "sistitulo":"Presència In Situ en Cas d'Absència", 
+        "sisparagrafo": "Quan no puguis estar present, nosaltres ho estarem per tu. Oferim presència in situ per supervisar i assegurar la teva propietat, rebre lliuraments, coordinar serveis i proporcionar tranquil·litat mentre estiguis absent, assegurant que tot estigui en perfecte ordre al teu retorn."
+        
+
+    },
+
+    "empresa": {
+        "pagina":"HillTop Agency - Creació d'Empresa a Andorra",
+        "titulo":"Empresa",
+        "paragrafo":"A Hilltop Agency, ens especialitzem en oferir serveis integrals que simplifiquen i agilitzin tot el procés per a empreses que desitgen realitzar una inversió estrangera o exercir activitats a títol personal a Andorra.",
+        "unotitulo":"Sol·licitud de Reserva de Nom Comercial:",
+        "unoparagrafo": "Assegurem la identitat del teu negoci des del principi amb una reserva de nom comercial efectiva.",
+        "dostitulo": "Autorització per a Inversió Estrangera:",
+        "dosparagrafo": "Gestionem la sol·licitud i obtenció de l&#39;autorització governamental per a inversions estrangeres.",
+        "trestitulo": "Constitució de Societat:",
+        "tresparagrafo": "Facilitem l&#39;escriptura pública de constitució davant un notari andorrà, proporcionant una base legal sòlida per a la teva empresa.",
+        "fortitulo": "Inscripció als Registres Pertinents:",
+        "forparagrafo": "Ens encarreguem de la inscripció al Registre de Societats i al Registre de Comerç i/o Indústria, garantint el compliment legal.",
+        "cinctitulo":"Acompanyament en la Recerca d&#39;Espais:", 
+        "cincparagrafo": "T’acompanyem en la recerca de locals o habitatges adequats per a les teves operacions comercials.",
+        "sistitulo":"Acompanyament Bancari:", 
+        "sisparagrafo": "Simplifiquem el procés bancari per a una transició suau i segura.",
+        "setitulo":"Sol·licitud d&#39;Obertura de Comerç o Indústria:", 
+        "separagrafo": "Gestionem la sol·licitud i tramitació davant el Comú corresponent, assegurant el compliment normatiu.",
+        "otitulo":"Sol·licitud del Codi Fiscal NRT i Inscripció a la CASS:", 
+        "oparagrafo": "Realitzem els tràmits fiscals i de seguretat social per a la teva empresa.",
+        "nutitulo":"Empreses d&#39;Andorra:", 
+        "nuparagrafo": "Oferim serveis administratius a mida per a empreses locals, ajustant-nos a les seves necessitats específiques."
+        
+
+    },
+
+    
+        "navigation": {
+          "conserjeria": {
+            "title": "Consergeria",
+            "href": "/Consergeria"
+          },
+          "empresa": {
+            "title": "Empresa",
+            "href": "/Empresa"
+          },
+          "immo": {
+            "title": "Immobiliaria",
+            "href": "/Immobiliaria"
+          },
+          "residencia": {
+            "title": "Residencia a Andorra",
+            "href": "/Residencia-a-Andorra"
+          }
+        
+      },
+
+      "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+      },
+
+      "about" : {
+        "parafone":"Vaig començar la meva carrera a la indústria de la construcció i administració, on vaig obtenir una comprensió sòlida dels fonaments del món immobiliari. Després, em vaig aventurar a l'apassionant sector de la gestió hotelera, on vaig aprendre la importància de l'hospitalitat i la satisfacció del client.",
+
+        "paraftwo":"En els darrers 10 anys, vaig tenir la valuosa oportunitat d'unir-me a una empresa familiar i respectada d'Andorra a l'àmbit immobiliari. On vaig aprendre l'ofici i vaig gaudir molt amb el tracte al client. Em vaig adonar que la satisfacció del client no només és un objectiu, sinó una font de gratificació personal.",
+
+        "parafthree":"A Hilltop Agency, la relació amb els clients és fonamental. El meu enfocament principal és garantir que cada client experimenti la diferència i superar-ne les expectatives. Valorem la transparència i la claredat en totes les nostres interaccions. Compromesos a brindar-te un servei personalitzat i professional que asseguri la teva satisfacció a cada pas amb nosaltres."
+
+      },
+
+      "LocaleLayout" : {
+        "title": "Hilltop Agency"
+      },
+
+      "select" : {
+        "res":"Residència",
+
+        "emp":"Empresa",
+
+        "immo":"Immobiliaria",
+
+        "con":"Consergeria",
+
+        "first":"Nom",
+
+        "last":"Cognom",
+
+        "Message":"Missatge",
+
+        "tel":"Telefon",
+
+        "ser":"Serveis"
+
+      }
+
+
+
+
+}

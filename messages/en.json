@@ -1,0 +1,172 @@
+{
+    "index":{
+      
+        "subtitulo": "Your Personalized Service Agency in Andorra",
+        "paragrafo":"At Hilltop Agency we accompany you from start to finish in your installation process in Andorra.",
+        "boton":"Contact Us",
+        "empresa": "Company",
+        "residencia": "Residence",
+        "immo":"Real Estate",
+        "conser":"Concierge"
+
+    },
+
+    "immo": {
+        "pagina":"HillTop Agency - Real Estate Andorra",
+        "titulo": "Real Estate.",
+        "paragrafo":"One of the most important steps is to find housing in Andorra, that is why at HillTop Agency, with 10 years of experience in the real estate sector, we want to make the search easier for our clients by personally taking care of the entire process. We adapt to the needs of each client in order to ensure the best quality of service and experience.",
+        "boton": "Contact us"
+
+    },
+
+    "residencia": {
+        "titulo":"Residency in Andorra",
+        "paragrafo": "At HILLTOP AGENCY, we will accompany you throughout the processing of setting up active or passive residency in Andorra, facilitating the process at all times so that you can enjoy it as soon as possible.",
+        "boton":"Contact Us",
+        "unotitulo":"Active Residency",
+        "unoparagrafo":"Active tax residency is granted to people who work in Andorra and there are two ways to obtain it",
+        "dostitulo":"Passive Residency",
+        "dosparagrafo":"Passive residence permits allow you to physically reside in Andorra, but do not give the right to work. There are up to three types of passive residence that can be requested in Andorra",
+        "trestitulo": "Residence by Reunification",
+        "tresparagrafo": "This permit allows people who have a residence permit in Andorra to apply for a residence permit to:",
+        "dosboton":"More Information!"
+    }, 
+
+    "activa": {
+        "titulo":"Active Residency",
+        "paragrafo":"Active tax residency is granted to people who work in Andorra and there are two ways to obtain it:",
+        "boton":"Contact Us",
+        "unotitulo":"Active residence as self employed",
+        "unoparagrafo":" Authorizes the applicant to reside and carry out a self-employed activity permanently by establishing a company. The effective main residence must be established in Andorra and reside for at least 183 days a year.",
+        "dostitulo":"Active residence as an employee",
+        "dosparagrafo":"Authorizes the applicant to reside and work in the Principality of Andorra permanently and effectively, obtaining an indefinite employment contract with an Andorran company. The effective main residence must be established in Andorra and reside for at least 183 days a year.",
+        "tituloform":"Contact Us",
+        "paraform":"How can we help you?",
+        "nombre":"Name",
+        "email":"Email",
+        "concepto":"Concept",
+        "mensaje":"Message"
+    },
+
+    "pasiva": {
+        "titulo": "Passive Residency",
+        "paragrafo":"Passive residence permits allow you to physically reside in Andorra, but do not give the right to work. There are up to three types of passive residence that can be requested in Andorra",
+        "unotitulo":"Residence without lucrative activity",
+        "unoparagrafo": "Authorizes you to reside in the country without carrying out work or professional activity. This type of residence is carried out by investment in Andorran assets (minimum investment of €600,000) plus a refundable deposit of €47,500 to the AFA (Andorra Financial Agency) and an additional €9,500 per dependent. Main and effective residence must be established in the Principality of Andorra for at least 90 days a year.",
+        "dostitulo": "Residence for professionals with international projection",
+        "dosparagrafo": "This type of passive residence in Andorra is aimed at professionals with international activity with little intervention in the Andorran market. The headquarters or base of the activity must be located in the Principality of Andorra and at least 85% of the services provided must be addressed to persons or entities not resident in the Principality. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year.",
+        "trestitulo": "Residence for reasons of scientific, cultural or sporting interest",
+        "tresparagrafo": "This type of residency is aimed at people who have a recognized international reputation and accreditation. At least 85% of the services provided must be used abroad. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year."
+    },
+
+    "conser": {
+        "pagina":"HillTop Agency - Admin and Concierge Services",
+        "titulo":"Admin and Concierge Services",
+        "paragrafo":"At Hilltop Agency, we understand that your time and peace of mind are of great value. We are dedicated to simplifying your life by handling a variety of tasks and procedures, allowing you to focus on what truly matters. Below, we present our main services:",
+        "unotitulo":"Administrative Procedures",
+        "unoparagrafo": "We take care of all the bureaucracy and administrative procedures you need to perform, both on a personal and business level. From obtaining licenses and permits to document management, we are here to make these processes smooth and efficient.",
+        "dostitulo": "Rental Property Management",
+        "dosparagrafo": "If you are a landlord with rental properties, we handle everything, from tenant searches, screenings, contract management, maintenance, assistance in community meetings, and rent receipts, ensuring that your investment is in good hands.",
+        "trestitulo": "Organization and Monitoring of Property Renovations",
+        "tresparagrafo": "If you are planning a renovation in your property, we accompany you throughout the process. From initial planning to overseeing and coordinating the work, we ensure that your project is carried out according to your expectations and within the established timelines.",
+        "fortitulo": "Intervention in Case of Accidents",
+        "forparagrafo": "In emergency situations, you can count on our immediate intervention. We are prepared to assist you in the event of accidents or any unexpected occurrence, ensuring that you receive the necessary assistance and procedures to resolve the situation quickly and effectively with the insurance company.",
+        "cinctitulo":"Home Management Assistance", 
+        "cincparagrafo": "We facilitate your daily life by taking care of tasks related to your home. From bill payments to service scheduling, we are here to ensure that everything is in order and runs smoothly, allowing you to fully enjoy your home.",
+        "sistitulo":"On-Site Presence in Case of Absence", 
+        "sisparagrafo": "When you cannot be present, we will be there for you. We offer on-site presence to supervise and secure your property, receive deliveries, coordinate services, and provide peace of mind while you are away, ensuring that everything is in perfect order upon your return."
+        
+
+    },
+
+    "empresa": {
+        "pagina":"HillTop Agency - Setting up a company in Andorra",
+        "titulo":"Corporate",
+        "paragrafo":"At Hilltop Agency, we specialize in providing comprehensive services that simplify and streamline the entire process for companies looking to make a foreign investment or conduct activities on their own behalf in Andorra.",
+        "unotitulo":"Commercial Name Reservation Request:",
+        "unoparagrafo": "We ensure the identity of your business from the start with an effective commercial name reservation.",
+        "dostitulo": "Authorization for Foreign Investment:",
+        "dosparagrafo": "We handle the application and obtainment of government authorization for foreign investments.",
+        "trestitulo": "Company Formation:",
+        "tresparagrafo": "We facilitate the public deed of incorporation before an Andorran notary, providing a solid legal foundation for your company.",
+        "fortitulo": "Registration in Relevant Registries:",
+        "forparagrafo": "We take care of registration in the Registry of Companies and the Registry of Commerce and/or Industry, ensuring legal compliance.",
+        "cinctitulo":"Assistance in Space Search:", 
+        "cincparagrafo": "We support you in finding suitable premises or residences for your commercial operations.",
+        "sistitulo":"Banking Assistance:", 
+        "sisparagrafo": "We simplify the banking process for a smooth and secure transition.",
+        "setitulo":"Request for Opening Trade or Industry:", 
+        "separagrafo": "We manage the request and processing before the corresponding Municipality, ensuring regulatory compliance.",
+        "otitulo":"Request for Fiscal Code NRT and Registration with CASS:", 
+        "oparagrafo": "We handle fiscal and social security procedures for your company.",
+        "nutitulo":"Andorran Companies:", 
+        "nuparagrafo": "We offer tailored administrative services for local businesses, adjusting to their specific needs."
+        
+
+    },
+
+
+    
+    "navigation": {
+        "conserjeria": {
+          "title": "Concierge",
+          "href": "/Concierge"
+        },
+        "empresa": {
+          "title": "Company",
+          "href": "/Company"
+        },
+        "immo": {
+          "title": "Real Estate",
+          "href": "/Real Estate"
+        },
+        "residencia": {
+          "title": "Residency in Andorra",
+          "href": "/Residency-in-Andorra"
+        }
+      
+    },
+
+    
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+      },
+
+      "about" : {
+        "parafone":"I began my career in the construction and management industry, where I earned a solid understanding of the foundations of the real estate world.I then ventured into the exciting sector of hotel management, where I learned the importance of hospitality and customer satisfaction.",
+
+        "paraftwo":"Over the past 10 years, I had the valuable opportunity to join a family business and respected company in Andorra in the real estate field. Where I learned the trade and enjoyed it a lot with customer treatment. I realized that customer satisfaction is not only a goal, but a source of personal gratification.",
+
+        "parafthree":"At Hilltop Agency, the relationship with clients is essential. My main focus is guarantee that each client experiences the difference and exceed their expectations. We value the Transparency and clarity in all our interactions. Committed to providing you with personalized and professional service that ensures your satisfaction at every step with us."
+
+      },
+
+      "LocaleLayout" : {
+        "title": "Hilltop Agency"
+      },
+
+      "select" : {
+        "res":"Residency",
+
+        "emp":"Corporate",
+
+        "immo":"Real Estate",
+
+        "con":"Concierge Services",
+
+        "first":"Name",
+
+        "last":"Surname",
+
+        "Message":"Message",
+
+        "tel":"Telephone Number",
+
+        "ser":"Services"
+
+      }
+
+
+
+}

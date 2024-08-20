@@ -1,0 +1,174 @@
+{
+    "index":{
+       
+        "subtitulo":"Votre Agence de Service Personnalisé en Andorre",
+        "paragrafo":"Chez Hilltop Agency nous vous accompagnons du début à la fin dans votre processus d’installation en Andorre.",
+        "boton":"Contactez-nous",
+        "empresa":"Société",
+        "residencia": "Résidence",
+        "immo": "Immobilier",
+        "conser": "Conciergerie"
+
+    },
+
+    "immo": {
+        "pagina":"HillTop Agency - Immobilier",
+        "titulo": "Immobilier.",
+        "paragrafo":"L'une des étapes les plus importantes est de trouver un logement en Andorre, c'est pourquoi chez HillTop Agency, avec 10 ans d'expérience dans le secteur immobilier, nous souhaitons faciliter la recherche de nos clients en nous occupant personnellement de tout le processus. Nous nous adaptons aux besoins de chaque client afin d'assurer la meilleure qualité de service et d'expérience.",
+        "boton": "Contactez-nous"
+
+    },
+
+    "residencia": {
+        "pagina":"HillTop Agency - Devenir Resident en Andorre",
+        "titulo": "Residence en Andorre",
+        "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence active ou passive en Andorre, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
+        "boton":"Contactez-nous",
+        "unotitulo":"Residence Active",
+        "unoparagrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir.",
+        "dostitulo":"Residence Passive",
+        "dosparagrafo":"Les permis de séjour passifs permettent de résider physiquement en Andorre, mais ne donnent pas le droit de travailler. Il existe jusqu’à trois types de résidence passive qui peuvent être demandées en Andorre",
+        "trestitulo": "Résidence par réunification",
+        "tresparagrafo": "Ce permis permet aux personnes titulaires d'un permis de séjour en Andorre de demander un permis de séjour pour :",
+        "dosboton":"Plus d'Information!"
+    },
+
+    "activa": {
+        "titulo":"Residence Active",
+        "paragrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir :",
+        "boton":"Contactez-nous",
+        "unotitulo":"Résidence active en autonomie",
+        "unoparagrafo":"Autorise le demandeur à résider et à exercer une activité indépendante de manière permanente en créant une entreprise. La résidence principale effective doit être établie en Andorre et résider au moins 183 jours par an.",
+        "dostitulo":"Résidence active en tant que salarié",
+        "dosparagrafo":"Autorise le candidat à résider et à travailler dans la Principauté d'Andorre de manière permanente et effective, en obtenant un contrat de travail à durée indéterminée avec une entreprise andorrane. La résidence principale effective doit être établie en Andorre et résider au moins 183 jours par an.",
+        "tituloform":"Contactez-nous",
+        "paraform":"Comment pouvons-nous vous aider? ",
+        "nombre": "Nom",
+        "email": "Email",
+        "concepto": "Concept",
+        "mensaje":"Messaje"
+    },
+
+    "pasiva": {
+        "titulo": "Résidence Passive",
+        "paragrafo": "Les permis de séjour passifs permettent de résider physiquement en Andorre, mais ne donnent pas le droit de travailler. Il existe jusqu’à trois types de résidence passive qui peuvent être demandées en Andorre",
+        "unotitulo":"Résidence sans activité lucrative",
+        "unoparagrafo":"Autorise à résider dans le pays sans exercer de travail ou d'activité professionnelle. Ce type de résidence se réalise en investissant dans le patrimoine andorran (investissement minimum de 600 000 €) plus un dépôt remboursable de 47 500 € à l'AFA (Agence Financière d'Andorre) et un supplément de 9 500 € par personne à charge. La résidence principale et effective doit être établie dans la Principauté d'Andorre pendant au moins 90 jours par an.",
+        "dostitulo":"Résidence pour professionnels à projection internationale",
+        "dosparagrafo": "Ce type de résidence passive en Andorre s'adresse aux professionnels ayant une activité internationale avec peu d'intervention sur le marché andorran. Le siège ou la base de l'activité doit être situé dans la Principauté d'Andorre et au moins 85% des services fournis doivent être adressés à des personnes ou entités non résidentes de la Principauté. Une caution remboursable doit être remise à l'AFA (Agence Financière Andorrane) de 47 500 euros et 9 500 euros supplémentaires par personne au nom du propriétaire, et résider en Andorre au moins 90 jours par an.",
+        "trestitulo":"Résidence pour raisons d’intérêt scientifique, culturel ou sportif",
+        "tresparagrafo": "Ce type de résidence s'adresse à des personnes bénéficiant d'une réputation et d'une accréditation internationales reconnues. Au moins 85 % des services fournis doivent être utilisés à l'étranger. Une caution remboursable doit être remise à l'AFA (Agence Financière Andorrane) de 47 500 euros et 9 500 euros supplémentaires par personne au nom du propriétaire, et résider en Andorre au moins 90 jours par an."
+    },
+
+    "conser": {
+        "pagina":"HillTop Agency - Services Administratif et Conciergerie",
+        "titulo":"Services Administratif et Conciergerie",
+        "paragrafo":"À Hilltop Agency, nous comprenons que votre temps et votre tranquillité sont d'une grande valeur. Nous nous consacrons à simplifier votre vie en prenant en charge une variété de tâches et de formalités, vous permettant de vous concentrer sur ce qui compte réellement. Voici nos principaux services :",
+        "unotitulo":"Formalités Administratives",
+        "unoparagrafo": "Nous nous occupons de toute la bureaucratie et des formalités administratives que vous devez accomplir, que ce soit au niveau personnel ou professionnel. De l&#39;obtention de licences et de permis à la gestion de la documentation, nous sommes là pour rendre ces processus simples et efficaces.",
+        "dostitulo": "Gestion des Biens Loués",
+        "dosparagrafo": "Si vous êtes propriétaire de biens en location, nous nous occupons de tout, de la recherche de locataires à la gestion des contrats, de l&#39;entretien aux réunions de copropriété et aux quittances de loyer, en veillant à ce que votre investissement soit entre de bonnes mains.",
+        "trestitulo": "Organisation et Suivi des Travaux de Rénovation Immobilière",
+        "tresparagrafo": "Si vous prévoyez des travaux de rénovation dans votre propriété, nous vous accompagnons tout au long du processus. De la planification initiale à la supervision et à la coordination des travaux, nous nous assurons que votre projet soit mené à bien selon vos attentes et dans les délais fixés.",
+        "fortitulo": "Intervention en Cas d'Accident",
+        "forparagrafo": "En cas d'urgence, vous pouvez compter sur notre intervention immédiate. Nous sommesnprêts à vous assister en cas d&#39;accidents, d&#39;incidents ou de tout événement inattendu, en veillant à ce que vous receviez l&#39;aide appropriée et à ce que les formalités nécessaires soient traitées rapidement et efficacement avec la compagnie d'assurance.",
+        "cinctitulo":"Aide à la Gestion du Foyer", 
+        "cincparagrafo": "Nous facilitons votre vie quotidienne en nous occupant des tâches liées à votre domicile. Des paiements de factures à la programmation de services, nous sommes là pour veiller à ce que tout soit en ordre et fonctionne sans accroc, vous permettant de profiter pleinement de votre chez-vous.",
+        "sistitulo":"Présence sur Place en Cas d'Absence", 
+        "sisparagrafo": "Lorsque vous ne pouvez pas être présent, nous le serons pour vous. Nous offrons une présence sur place pour surveiller et sécuriser votre propriété, recevoir des livraisons, coordonner des services et vous offrir la tranquillité d'esprit en votre absence, en veillant à ce que tout soit en parfait état à votre retour."
+        
+
+    },
+
+    "empresa": {
+        "pagina":"HillTop Agency - Société en Andorre",
+        "titulo":"Société",
+        "paragrafo":"Chez Hilltop Agency, nous sommes spécialisés dans la fourniture de services complets qui simplifient et accélèrent l&#39;ensemble du processus pour les entreprises souhaitant réaliser un investissement étranger ou exercer des activités en leur nom propre en Andorre.",
+        "unotitulo":"Demande de Réservation de Nom Commercial:",
+        "unoparagrafo": "Nous assurons l&#39;identité de votre entreprise dès le départ avec une réservation de nom commercial efficace.",
+        "dostitulo": "Autorisation pour l&#39;Investissement Étranger:",
+        "dosparagrafo": "Nous gérons la demande et l&#39;obtention de l&#39;autorisation gouvernementale pour les investissements étrangers.",
+        "trestitulo":"Constitution de la Société:",
+        "tresparagrafo": "Nous facilitons la rédaction publique de la constitution devant un notaire andorran, offrant une base légale solide pour votre entreprise.",
+        "fortitulo": "Inscription dans les Registres Pertinents:",
+        "forparagrafo": "Nous nous occupons de l&#39;inscription au Registre des Sociétés et au Registre du Commerce et/ou de l&#39;Industrie, garantissant la conformité légale.",
+        "cinctitulo":"Accompagnement dans la Recherche d&#39;Espaces:", 
+        "cincparagrafo": "Nous vous soutenons dans la recherche de locaux ou de logements adaptés à vos opérations commerciales.",
+        "sistitulo":"Accompagnement Bancaire:", 
+        "sisparagrafo": "Nous simplifions le processus bancaire pour une transition fluide et sécurisée.",
+        "setitulo":"Demande d&#39;Ouverture de Commerce ou d&#39;Industrie:", 
+        "separagrafo": "Nous gérons la demande et la procédure auprès de la Commune correspondante, assurant la conformité réglementaire.",
+        "otitulo":"Demande de Code Fiscal NRT et Inscription à la CASS:", 
+        "oparagrafo": "Nous gérons les formalités fiscales et de sécurité sociale pour votre entreprise.",
+        "nutitulo":"Entreprises d&#39;Andorre:", 
+        "nuparagrafo": "Nous proposons des services administratifs sur mesure pour les entreprises locales, adaptés à leurs besoins spécifiques."
+        
+
+    },
+
+    "navigation": {
+        "conserjeria": {
+          "title": "Conciergerie",
+          "href": "/Conciergerie"
+        },
+        "empresa": {
+          "title": "Société en Andorre",
+          "href": "/Société-en-Andorre"
+        },
+        "immo": {
+          "title": "Immobilier",
+          "href": "/Immobilier"
+        },
+        "residencia": {
+          "title": "Residence en Andorre",
+          "href": "/Residence-en-Andorra"
+        }
+      
+    },
+
+    
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+      },
+
+      "about" : {
+        "parafone":"J'ai débuté ma carrière dans le secteur de la construction et de la gestion, où j'ai obtenu un solide compréhension des fondements du monde immobilier. Je me suis ensuite aventuré dans le secteur passionnant de la gestion hôtelière, où j'ai appris l'importance de l'hospitalité et satisfaction du client.",
+
+        "paraftwo":"Au cours des 10 dernières années, j'ai eu la précieuse opportunité de rejoindre une entreprise familiale et entreprise respectée en Andorre dans le domaine immobilier. Où j'ai appris le métier et que j'ai beaucoup apprécié avec le traitement du client. J'ai réalisé que la satisfaction du client n'est pas seulement un objectif, mais une source de satisfaction personnelle.",
+
+        "parafthree":"Chez Hilltop Agency, la relation avec les clients est essentielle. Mon objectif principal est garantir que chaque client ressent la différence et dépasse ses attentes. Nous valorisons le Transparence et clarté dans toutes nos interactions. Engagé à vous fournir un service personnalisé et professionnel qui assure votre satisfaction à chaque étape avec nous."
+
+      },
+
+      "LocaleLayout" : {
+        "title": "Hilltop Agency"
+      },
+
+      "select" : {
+        "res":"Residence",
+
+        "emp":"Société",
+
+        "immo":"Immobilier",
+
+        "con":"Conciergerie",
+
+        "first":"Prenom",
+
+        "last":"Nom",
+
+        "Message":"Message",
+
+        "tel":"Telephone",
+
+        "ser":"Services"
+
+      }
+
+     
+
+
+
+
+}
