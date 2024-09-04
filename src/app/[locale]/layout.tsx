@@ -18,6 +18,7 @@ import Footer from '@/components/Footer';
 
 
 
+
 type Props = {
   children: ReactNode;
   params: {locale: string};
@@ -55,7 +56,8 @@ export default async function LocaleLayout({
           <Navbar />
           {children}
           <Options />
-          <Footer />
+          <Footer/>
+          
          
           
           

@@ -20,7 +20,7 @@ import { toast } from "sonner";
 
 import {useTranslations} from 'next-intl';
 
-export function ContactForm() {
+export function ReducedForm() {
 
     const t = useTranslations('select');
 
@@ -58,7 +58,7 @@ export function ContactForm() {
     <Form {...form}>
 
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
           <FormField
             control={form.control}
@@ -91,8 +91,6 @@ export function ContactForm() {
 
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
-
         <FormField
           control={form.control}
           name="email"
@@ -107,7 +105,7 @@ export function ContactForm() {
             </FormItem>
           )} />
 
-
+       
 
         <FormField
           control={form.control}
@@ -121,7 +119,6 @@ export function ContactForm() {
               
               <FormMessage />
             </FormItem>)} />
-            </div>
 
             <FormField
               control={form.control}

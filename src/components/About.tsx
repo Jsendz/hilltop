@@ -24,13 +24,14 @@ const About = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center mt-20">
           <div className='w-full text-left h-full'>
-            <h3 className='text-2xl antialiased font-semibold mb-10 text-center sm:text-left'>Laura Lopez Tohà - <span className='text-cyan-500'>Fundadora</span></h3>
-            <p className="text-lg text-slate-700 mt-10 px-5">Mi nombre es Laura, nací en Andorra y he tenido el privilegio de llamarlo mi hogar durante toda mi vida. Mi viaje profesional me ha llevado por diversos caminos, cada uno de los cuales ha contribuido a mi crecimiento tanto a nivel personal como profesional.
-            <br />
-Comenzando mi carrera en la industria de la construcción y administración, luego, me aventuré en el apasionante sector de la gestión hotelera y en los últimos 10 años, tuve la valiosa oportunidad de unirme a una empresa familiar de Andorra en el ámbito inmobiliario. 
-<br />
-Durante todos estos años, me di cuenta que la satisfacción del cliente no solo es un objetivo, sino una fuente constante de gratificación personal.
-La conexión con las personas, comprender sus necesidades y brindar soluciones efectivas ha sido una experiencia enriquecedora y fundamental en mi trayectoria. </p>
+            <h3 className='text-2xl antialiased font-semibold mb-10 text-center sm:text-left'>Laura Lopez Tohà - <span className='text-cyan-500'>{t("paraoto")}</span></h3>
+            <p className="text-lg text-slate-700 mt-10 px-5">{t("parafour")}</p>
+            <p className="text-lg text-slate-700 mt-10 px-5">
+            {t("parafive")}
+            </p>
+            <p className="text-lg text-slate-700 mt-10 px-5">{t("parasix")}</p>
+            <p className="text-lg text-slate-700 mt-10 px-5">{t("paraseven")}</p>
+ 
           </div>
         <div className='w-full mt-10 sm:mt-0'>
         <Image src="/aboutpic2.svg" alt="founder's photo" width={300} height={200} className="hidden lg:block" />
