@@ -1,6 +1,12 @@
 import {useTranslations} from 'next-intl';
 import Image from 'next/image.js';
 import Popup from '@/components/Popup'
+import { unstable_setRequestLocale } from 'next-intl/server';
+
+
+type Props = {
+  params: {locale:string}
+}
 
 
 
@@ -8,9 +14,8 @@ import Popup from '@/components/Popup'
 
 
 
-
-
-const Home = () => {
+export default function Home ({params:{locale}}:Props) {
+  unstable_setRequestLocale(locale);
 
     const t = useTranslations('index');
 
@@ -41,4 +46,3 @@ const Home = () => {
   )
 }
 
-export default Home

@@ -57,7 +57,7 @@ export function ContactForm() {
   return (
     <Form {...form}>
 
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 z-50">
         <div className="grid grid-cols-2 gap-4">
 
           <FormField

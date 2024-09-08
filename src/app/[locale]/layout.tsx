@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar';
 
 
+
 import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {
@@ -9,10 +10,10 @@ import {
   getTranslations,
   unstable_setRequestLocale
 } from 'next-intl/server';
-import {locales} from '@/config';
 import {ReactNode} from 'react';
 import Options from '@/components/Option';
 import Footer from '@/components/Footer';
+import {routing} from '@/i18n/routing';
 
 
 
@@ -25,8 +26,10 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({locale}));
+  return routing.locales.map((locale) => ({locale}));
 }
+
+
 
 export async function generateMetadata({
   params: {locale}
@@ -53,7 +56,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
+          <Navbar params={{
+            locale: ''
+          }} />
           {children}
           <Options />
           <Footer/>

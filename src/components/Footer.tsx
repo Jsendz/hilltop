@@ -1,20 +1,38 @@
 import React from 'react';
+import { ContactForm } from './Form/form';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-gray-100 py-8 md:h-[200px] absolute w-full z-50">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+
+    <div className='w-full h-full absolute z-10'>
+      <div className='w-[90px] md:w-1/3 rounded-lg border-2 shadow-2xl md:p-5 md:ml-auto md:mx-8 -mb-32 z-50 '>
+        <ContactForm />
+      </div>
+    <footer className="bg-gray-800 text-gray-100 py-8 md:h-[400px]  w-full ">
+      <div className="container flex items-center justify-around w-full h-full  px-4">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full">
+          <div className="mb-4 md:mb-0 w-full flex flex-col items-center">
             <h2 className="text-2xl font-bold">MyCompany</h2>
             <p className="text-sm mt-2">© 2024 MyCompany. All rights reserved.</p>
           </div>
-          <div className="flex space-x-6 mb-4 md:mb-0">
+          <div className="flex space-x-6 mb-4 md:mb-0 w-full">
+            <div className='flex flex-col w-full'>
+            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Serveis</a>
             <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white">Terms of Service</a>
-            <a href="#" className="text-gray-300 hover:text-white">Contact Us</a>
+            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            </div>
+            <div className='flex flex-col w-full'>
+            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Hilltop Agency</a>
+            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            </div>
+            <div className='flex flex-col w-full'>
+            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Contact Us</a>
+            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            </div>
           </div>
-          <div className="flex space-x-6">
+          <div className="flex space-x-6 w-full justify-center">
             <a href="#" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
@@ -55,6 +73,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
+    </div>
   );
 };
 

@@ -2,15 +2,23 @@
 import Image from "next/image"
 import Link from "next/link"
 import LocaleSwitcher from './LocaleSwitcher';
+import { unstable_setRequestLocale } from 'next-intl/server';
+
+
+
+
+type Props = {
+  params: {locale:string}
+}
 
 
 
 
 
 
-const Navbar = () => {
- 
- 
+
+export default function Navbar ({params:{locale}}:Props) {
+  unstable_setRequestLocale(locale);
    
 
   return (
@@ -25,4 +33,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+
