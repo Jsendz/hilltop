@@ -3,10 +3,9 @@
 import clsx from 'clsx';
 import {useSelectedLayoutSegment} from 'next/navigation';
 import {ComponentProps} from 'react';
-import type {AppPathnames} from '@/config';
-import {Link} from '@/navigation';
+import {Link, Pathnames} from '@/i18n/routing';
 
-export default function NavigationLink<Pathname extends AppPathnames>({
+export default function NavigationLink<Pathname extends Pathnames>({
   href,
   ...rest
 }: ComponentProps<typeof Link<Pathname>>) {
