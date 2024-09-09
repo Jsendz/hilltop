@@ -60,7 +60,9 @@ export default async function LocaleLayout({
             locale: ''
           }} />
           {children}
-          <Options />
+          <Options params={{
+            locale: ''
+          }} />
           <Footer/>
           
          

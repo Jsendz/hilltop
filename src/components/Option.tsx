@@ -7,10 +7,19 @@ import { BsHouseLock } from "react-icons/bs";
 import { SlDocs } from "react-icons/sl";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import { GiHouseKeys } from "react-icons/gi";
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 
 
-const Options = () => {
+type Props = {
+  params: {locale: string};
+};
+
+
+
+export default function PathnamesPage({params: {locale}}: Props) {
+
+  unstable_setRequestLocale(locale);
     
     const t = useTranslations('index');
   
@@ -119,4 +128,3 @@ const Options = () => {
   )
 }
 
-export default Options
