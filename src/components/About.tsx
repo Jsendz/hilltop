@@ -1,8 +1,17 @@
 import React from 'react'
 import Image from 'next/image.js';
 import {useTranslations} from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-const About = () => {
+type Props = {
+  params: {locale: string};
+};
+
+
+
+export default function PathnamesPage({params: {locale}}: Props) {
+
+  unstable_setRequestLocale(locale);
 
   const t = useTranslations('about');
 
@@ -43,4 +52,3 @@ const About = () => {
   )
 }
 
-export default About

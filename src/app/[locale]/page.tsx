@@ -24,7 +24,9 @@ export default function IndexPage ({params:{locale}}:Props) {
       locale: ''
     }} />
 
-    <About  />
+    <About params={{
+      locale: ''
+    }}  />
     
     
    
