@@ -11,9 +11,11 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 
 
 
+
 type Props = {
   params: {locale: string};
 };
+
 
 
 

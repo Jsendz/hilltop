@@ -9,9 +9,18 @@ import { MdEmergency } from "react-icons/md";
 import { FaHouseChimneyMedical } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
 
+
+
+
+
+
+
 type Props = {
   params: {locale: string};
 };
+
+
+ 
 
 
 
