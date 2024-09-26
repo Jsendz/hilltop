@@ -4,6 +4,18 @@ import {useTranslations} from 'next-intl';
 import {unstable_setRequestLocale} from 'next-intl/server';
 import Image from 'next/image.js';
 
+import {getTranslations} from 'next-intl/server';
+ 
+export async function generateMetadata({params: {locale}}: Props) {
+  const t = await getTranslations({locale, namespace: 'index'});
+ 
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
+
+
 
 
 

@@ -15,6 +15,17 @@ import Options from '@/components/Option';
 import Footer from '@/components/Footer';
 import {routing} from '@/i18n/routing';
 
+ 
+
+ 
+export async function generateMetadata({params: {locale}}: Props) {
+  const t = await getTranslations({locale, namespace: 'index'});
+ 
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
 
 
 

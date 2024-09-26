@@ -8,7 +8,16 @@ import { MdConstruction } from "react-icons/md";
 import { MdEmergency } from "react-icons/md";
 import { FaHouseChimneyMedical } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
-
+import {getTranslations} from 'next-intl/server';
+ 
+export async function generateMetadata({params: {locale}}: Props) {
+  const t = await getTranslations({locale, namespace: 'index'});
+ 
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
 
 
 
@@ -18,6 +27,7 @@ import { FaHandshake } from "react-icons/fa6";
 type Props = {
   params: {locale: string};
 };
+
 
 
  
