@@ -10,7 +10,7 @@ const Residencias = () =>  {
     <div id="residencia" className="w-full max-w-7xl lg:mx-auto h-full lg:h-screen flex flex-col lg:flex-row items-left my-40 2xl:my-20">
       <div className="w-full h-full flex flex-col justify-center p-5 lg:pl-10 mb-20 lg:mb-0">
         <h2 className="text-slate-800 font-bold text-5xl text-left">
-         {t("titulo")}
+         {t("title")}
         </h2>
         <p className="text-left mt-5 text-slate-800 text-xl mb-10 ">
           {t("paragrafo")}

@@ -9,7 +9,7 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 import {getTranslations} from 'next-intl/server';
  
 export async function generateMetadata({params: {locale}}: Props) {
-  const t = await getTranslations({locale, namespace: 'index'});
+  const t = await getTranslations({locale, namespace: 'residencia'});
  
   return {
     title: t('title'),

@@ -2,7 +2,7 @@
     "index":{
 
         "title": "Hilltop Agency Andorra",
-        "description": "En la Hilltop Agency te acompañamos en el proceso de instalación en Andorra, desde Residencias hasta servicios administrativos y de consergeria .",
+        "description": "En Hilltop Agency te acompañamos en el proceso de instalación en Andorra, desde Residencias hasta servicios administrativos y de consergeria .",
         "subtitulo":"Tu Agencia de Servicio Personalizado en Andorra",
         "paragrafo":"En Hilltop Agency te acompañamos de principio a fin en tu proceso de instalación en Andorra.",
         "boton":"Contáctanos",
@@ -15,7 +15,8 @@
 
     "residencia":{
         "pagina":"Hilltop Agency - Residencia en Andorra",
-        "titulo": "Residencia en Andorra",
+        "title": "Residencia en Andorra",
+        "description":"Hazte residente de Andorra. En Hilltop Agency ofrecemos un servicio personalizado para simplificar el proceso de residencia en Andorra.",
         "paragrafo":"En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia activa o pasiva en Andorra, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.",
         "boton": "Contáctanos",
         "unotitulo":"Residencia Activa",
