@@ -70,6 +70,7 @@
     "conser": {
         "pagina":"HillTop Agency - Serveis Administratius i Consergeria",
         "titulo":"Serveis Administratius i Consergeria",
+        "description":"A Hilltop Agency ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa.",
         "paragrafo":"A Hilltop Agency, entenem que el teu temps i tranquil·litat tenen un gran valor. Ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa. A continuació, et presentem els nostres serveis principals:",
         "unotitulo":"Tràmits Administratius",
         "unoparagrafo": "Ens encarreguem de tota la burocràcia i tràmits administratius que necessitis realitzar, tant a nivell personal com empresarial. Des de l'obtenció de llicències i permisos fins a la gestió de documentació, estem aquí per fer que aquests processos siguin àgils i eficients.",
@@ -90,24 +91,25 @@
     "empresa": {
         "pagina":"HillTop Agency - Creació d'Empresa a Andorra",
         "titulo":"Empresa",
+        "description":"A Hilltop Agency, estem especialitzats en oferir serveis integrals que simplifiquen i agilitzen tot el procés per a les empreses que busquen fer una inversió estrangera o realitzar activitats per compte propi a Andorra.",
         "paragrafo":"A Hilltop Agency, ens especialitzem en oferir serveis integrals que simplifiquen i agilitzin tot el procés per a empreses que desitgen realitzar una inversió estrangera o exercir activitats a títol personal a Andorra.",
         "unotitulo":"Sol·licitud de Reserva de Nom Comercial:",
         "unoparagrafo": "Assegurem la identitat del teu negoci des del principi amb una reserva de nom comercial efectiva.",
         "dostitulo": "Autorització per a Inversió Estrangera:",
-        "dosparagrafo": "Gestionem la sol·licitud i obtenció de l&#39;autorització governamental per a inversions estrangeres.",
+        "dosparagrafo": "Gestionem la sol·licitud i obtenció de l'autorització governamental per a inversions estrangeres.",
         "trestitulo": "Constitució de Societat:",
-        "tresparagrafo": "Facilitem l&#39;escriptura pública de constitució davant un notari andorrà, proporcionant una base legal sòlida per a la teva empresa.",
+        "tresparagrafo": "Facilitem l'escriptura pública de constitució davant un notari andorrà, proporcionant una base legal sòlida per a la teva empresa.",
         "fortitulo": "Inscripció als Registres Pertinents:",
         "forparagrafo": "Ens encarreguem de la inscripció al Registre de Societats i al Registre de Comerç i/o Indústria, garantint el compliment legal.",
-        "cinctitulo":"Acompanyament en la Recerca d&#39;Espais:", 
+        "cinctitulo":"Acompanyament en la Recerca d'Espais:", 
         "cincparagrafo": "T’acompanyem en la recerca de locals o habitatges adequats per a les teves operacions comercials.",
         "sistitulo":"Acompanyament Bancari:", 
         "sisparagrafo": "Simplifiquem el procés bancari per a una transició suau i segura.",
-        "setitulo":"Sol·licitud d&#39;Obertura de Comerç o Indústria:", 
+        "setitulo":"Sol·licitud d'Obertura de Comerç o Indústria:", 
         "separagrafo": "Gestionem la sol·licitud i tramitació davant el Comú corresponent, assegurant el compliment normatiu.",
         "otitulo":"Sol·licitud del Codi Fiscal NRT i Inscripció a la CASS:", 
         "oparagrafo": "Realitzem els tràmits fiscals i de seguretat social per a la teva empresa.",
-        "nutitulo":"Empreses d&#39;Andorra:", 
+        "nutitulo":"Empreses d'Andorra:", 
         "nuparagrafo": "Oferim serveis administratius a mida per a empreses locals, ajustant-nos a les seves necessitats específiques."
         
 
