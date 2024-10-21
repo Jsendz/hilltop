@@ -45,7 +45,7 @@ export default function PathnamesPage({params: {locale}}: Props) {
       <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg mx-auto">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-autorounded-lg bg-cover w-[90%] mx-auto ">
         <div className="w-full text-left  ">
-        <h2 className="text-4xl lg:text-5xl antialiased  font-extrabold mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("titulo")}</h2>
+        <h2 className="text-4xl lg:text-5xl antialiased  font-extrabold mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("title")}</h2>
         <p className=" text-xl lg:text-2xl antialiased  text-slate-700 xl:px-20 text-left mb-10 ">{t("paragrafo")}</p></div>
          
       </div>

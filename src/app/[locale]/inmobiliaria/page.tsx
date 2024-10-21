@@ -40,7 +40,7 @@ type Props = {
       </div>
       <div className="w-full h-full p-5 lg:pl-40 pt-10 flex flex-col items-left">
         <h2 className= " text-5xl lg:text-6xl text-slate-800 font-bold text-left pb-5">
-        {t("titulo")}
+        {t("title")}
         </h2>
         <p className="max-w-[470px] mt-5 text-slate-800 text-left text-xl mb-10">
         {t("paragrafo")}

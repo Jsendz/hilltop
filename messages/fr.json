@@ -15,7 +15,7 @@
 
     "immo": {
         "pagina":"HillTop Agency - Immobilier",
-        "titulo": "Immobilier.",
+        "title": "Immobilier.",
         "paragrafo":"L'une des étapes les plus importantes est de trouver un logement en Andorre, c'est pourquoi chez HillTop Agency, avec 10 ans d'expérience dans le secteur immobilier, nous souhaitons faciliter la recherche de nos clients en nous occupant personnellement de tout le processus. Nous nous adaptons aux besoins de chaque client afin d'assurer la meilleure qualité de service et d'expérience.",
         "boton": "Contactez-nous"
 
@@ -86,6 +86,7 @@
 
     "empresa": {
         "pagina":"HillTop Agency - Société en Andorre",
+        "quest":"Quel est le processus de création d’une Société ou d’une Société en Andorre et quels avantages présente-t-il ?",
         "title":"Société",
         "description":"Chez Hilltop Agency, nous sommes spécialisés dans la fourniture de services complets qui simplifient et accélèrent l'ensemble du processus pour les entreprises souhaitant réaliser un investissement étranger ou exercer des activités en leur nom propre en Andorre.",        
         "paragrafo":"Chez Hilltop Agency, nous sommes spécialisés dans la fourniture de services complets qui simplifient et accélèrent l'ensemble du processus pour les entreprises souhaitant réaliser un investissement étranger ou exercer des activités en leur nom propre en Andorre.",
