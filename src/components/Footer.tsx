@@ -17,23 +17,16 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex space-x-6 mb-4 md:mb-0 w-full">
             <div className='flex flex-col w-full'>
-            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Serveis</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
+            <a href="/" className="text-gray-300 hover:text-white font-bold text-xl">Hilltop Agency</a>
+            <a href="/conserjeria" className="text-gray-300 hover:text-white">conser</a>
+            <a href="/empresa" className="text-gray-300 hover:text-white">Empre</a>
+            <a href="/inmobiliaria" className="text-gray-300 hover:text-white">Immo</a>
+            <a href="/residencia" className="text-gray-300 hover:text-white">Resi</a>
             </div>
-            <div className='flex flex-col w-full'>
-            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Hilltop Agency</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            </div>
-            <div className='flex flex-col w-full'>
-            <a href="#" className="text-gray-300 hover:text-white font-bold text-xl">Contact Us</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white">Privacy Policy</a>
-            </div>
+          
           </div>
           <div className="flex space-x-6 w-full justify-center">
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="/" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -45,7 +38,7 @@ const Footer: React.FC = () => {
                 />
               </svg>
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="/" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -57,7 +50,7 @@ const Footer: React.FC = () => {
                 />
               </svg>
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="/" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
