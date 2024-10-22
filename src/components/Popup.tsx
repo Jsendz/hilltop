@@ -28,7 +28,7 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen} className="bg-slate-800 rounded-xl p-5 ">{t("dosboton")}</Button>
+      <Button onClick={handleOpen} aria-valuetext='Contact' className="bg-slate-800 rounded-xl p-5 ">{t("dosboton")}</Button>
       <Modal
         open={open}
         onClose={handleClose}
