@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           
           </div>
           <div className="flex space-x-6 w-full justify-center">
-            <a href="/" className="text-gray-300 hover:text-white">
+            <a href="/conserjeria" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                 />
               </svg>
             </a>
-            <a href="/" className="text-gray-300 hover:text-white">
+            <a href="/empresa" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                 />
               </svg>
             </a>
-            <a href="/" className="text-gray-300 hover:text-white">
+            <a href="/inmobiliaria" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
