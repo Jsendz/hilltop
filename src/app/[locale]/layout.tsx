@@ -14,6 +14,8 @@ import {ReactNode} from 'react';
 import Options from '@/components/Option';
 import Footer from '@/components/Footer';
 import {routing} from '@/i18n/routing';
+import { Toaster } from 'sonner';
+
 
  
 
@@ -54,11 +56,13 @@ export default async function LocaleLayout({
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
+  
  
   return (
-    <html lang={locale}>
-      <body>
+    <html lang={locale} >
+      <body >
         <NextIntlClientProvider messages={messages}>
+          <Toaster />
           <Navbar params={{
             locale: ''
           }} />

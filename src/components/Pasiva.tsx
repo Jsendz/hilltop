@@ -8,10 +8,11 @@ const Pasiva = () => {
     const t = useTranslations("pasiva");
   
     return (
-      <div id="pasiva" className="w-full max-w-7xl mx-auto h-full mb-32 " >
+      <div className='w-full  bg-gradient-to-tl from-blue-100 via-slate-50 to-slate-50'>
+      <div id="pasiva" className="w-full max-w-7xl mx-auto h-full pb-32 " >
         <div className="py-20 w-full">
-        <h2 className="text-6xl font-bold text-left lg:text-center pl-3 lg:pl-0 py-10 w-full">{t("titulo")}</h2>
-        <p className="text-2xl 2xl:text-3xl text-left lg:text-center pl-5 pb-10">{t("paragrafo")}</p>
+        <h2 className="text-5xl md:text-6xl md:text-center font-bold text-left pl-3 py-10 w-full text-slate-800">{t("titulo")}</h2>
+        <p className="text-2xl 2xl:text-3xl text-left md:text-center p-5 lg:px-20 pb-10">{t("paragrafo")}</p>
   
   <div className="flex flex-col lg:flex-row h-full w-full justify-around 2xl:max-w-7xl lg:max-w-6xl lg:mx-auto mt-10 ">
     
@@ -45,6 +46,7 @@ const Pasiva = () => {
         
   </div>
   
+      </div>
       </div>
     )
   }

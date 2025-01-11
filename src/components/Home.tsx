@@ -20,7 +20,8 @@ export default function Home ({params:{locale}}:Props) {
     const t = useTranslations('index');
 
   return (
-    <div className="w-full h-screen bg-forestweb bg-no-repeat bg-cover "   >
+    <div className='w-full bg-gradient-to-bl from-blue-100 via-slate-50 to-slate-50'>
+    <div className="w-full h-screen bg-forestweb bg-no-repeat bg-cover  "   >
         <div className="w-full mx-auto  lg:max-w-7xl lg:h-[70%] h-full flex flex-col lg:flex-row lg:justify-around lg:items-start xl:items-center rounded-xl lg:mb-32 xl:mb-40 " >
             <div className="w-full flex flex-col justify-center text-left p-2 pt-10 pl-4 lg:pl-20" >
                 
@@ -41,6 +42,7 @@ export default function Home ({params:{locale}}:Props) {
          
         </div>
       
+    </div>
     </div>
     
   )

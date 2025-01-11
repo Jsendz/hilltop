@@ -135,7 +135,7 @@
     
     "LocaleSwitcher": {
         "label": "Change language",
-        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT}}"
       },
 
       "about" : {
@@ -178,9 +178,14 @@
 
         "tel":"Telephone",
 
-        "ser":"Services"
+        "ser":"Services",
+
+        "formSuccess": "Votre formulaire a été envoyé avec succès !",
+        "formError": "Une erreur s'est produite. Veuillez réessayer."
 
       }
+
+      
 
      
 

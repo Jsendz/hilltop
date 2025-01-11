@@ -35,13 +35,13 @@ export default function PathnamesPage({params: {locale}}: Props) {
       <div className='hidden lg:block'>
         <div className='w-full fixed bottom-0 z-10  '>
             <div className='backdrop-blur-lg rounded-xl w-[90%] max-w-3xl mx-auto'>
-                <div className='flex flex-row flex-wrap justify-evenly py-5'>
+                <div className='flex flex-row flex-wrap justify-evenly py-2'>
                 <NavigationLink href="/empresa">
                 
                 
                       <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold mb-3'>
-                          <Image src="/docs3.svg" alt="company setup" width={50} height={50}  className='w-[50px] 2xl:w-[75px]'/>
-                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("empresa")}</h2>
+                          <Image src="/docs3.svg" alt="company setup" width={50} height={50}  className='w-[75px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("empresa")}</h2>
                       </div>
         
                 </NavigationLink>
@@ -49,8 +49,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
                 
                 
                       <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold mb-3'>
-                      <Image src="/empresa2.webp" alt="residence services" width={50} height={50} className='w-[50px] 2xl:w-[75px]' />
-                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("residencia")}</h2>
+                      <Image src="/empre3.svg" alt="residence services" width={50} height={50} className='w-[75px] 2xl:w-[75px]' />
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("residencia")}</h2>
                       </div>
         
                 </NavigationLink>
@@ -58,8 +58,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
                 
                 
                       <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold'>
-                      <Image src="/immo2.webp" alt="Real estate services" width={50} height={50}  className='w-[50px] 2xl:w-[75px]'/>
-                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("immo")}</h2>
+                      <Image src="/immo3.svg" alt="Real estate services" width={75} height={75}  className='w-[75px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("immo")}</h2>
                       </div>
         
                 </NavigationLink>
@@ -67,8 +67,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
                 
                 
                       <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold'>
-                      <Image src="/consergeria2.webp" alt="Concierge services" width={50} height={50}  className='w-[50px] 2xl:w-[75px]'/>
-                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("conser")}</h2>
+                      <Image src="/conser3.svg" alt="Concierge services" width={50} height={50}  className='w-[75px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("conser")}</h2>
                       </div>
         
                 </NavigationLink>
@@ -89,7 +89,7 @@ export default function PathnamesPage({params: {locale}}: Props) {
 
   <div className='  bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
   <MdOutlineBusinessCenter size={32} style={{ fill: 'DeepSkyBlue' }} />
-      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("empresa")}</h2>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("empresa")}</h2>
   </div>
   
 </NavigationLink>
@@ -98,7 +98,7 @@ export default function PathnamesPage({params: {locale}}: Props) {
 
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
   <SlDocs size={32}  style={{ fill: 'DeepSkyBlue' }}/>
-      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("residencia")}</h2>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("residencia")}</h2>
   </div>
   
 </NavigationLink>
@@ -107,7 +107,7 @@ export default function PathnamesPage({params: {locale}}: Props) {
 
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
   <BsHouseLock size={32} style={{ fill: 'DeepSkyBlue' }}/>
-      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("immo")}</h2>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("immo")}</h2>
   </div>
   
 </NavigationLink>
@@ -116,7 +116,7 @@ export default function PathnamesPage({params: {locale}}: Props) {
 
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
   <GiHouseKeys size={32} style={{ fill: 'DeepSkyBlue' }} />
-      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("conser")}</h2>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2 text-slate-800'>{t("conser")}</h2>
   </div>
   
 </NavigationLink>

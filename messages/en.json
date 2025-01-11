@@ -15,7 +15,7 @@
 
     "immo": {
         "pagina":"HillTop Agency - Real Estate Andorra",
-        "titulo": "Real Estate.",
+        "title": "Real Estate.",
         "paragrafo":"One of the most important steps is to find housing in Andorra, that is why at HillTop Agency, with 10 years of experience in the real estate sector, we want to make the search easier for our clients by personally taking care of the entire process. We adapt to the needs of each client in order to ensure the best quality of service and experience.",
         "boton": "Contact us"
 
@@ -136,7 +136,7 @@
     
     "LocaleSwitcher": {
         "label": "Change language",
-        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT}}"
       },
 
       "about" : {
@@ -179,9 +179,15 @@
 
         "tel":"Telephone Number",
 
-        "ser":"Services"
+        "ser":"Services",
+
+        "formSuccess": "Your form has been submitted successfully!",
+          "formError": "Something went wrong. Please try again."
 
       }
+
+      
+        
 
    
 

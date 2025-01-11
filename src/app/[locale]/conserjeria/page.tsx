@@ -41,61 +41,67 @@ export default function PathnamesPage({params: {locale}}: Props) {
   const t = useTranslations('conser');
 
   return (
-    <div id="Consergeria" className="w-full h-full bg-[#F3FAFF] bg-no-repeat bg-cover py-10 md:py-20">
-      <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg mx-auto">
+    <div id="Consergeria" className="w-full h-full bg-[#F3FAFF] bg-no-repeat bg-cover py-10 md:py-20 bg-gradient-to-bl from-blue-100 via-slate-50 to-slate-50 ">
+      <div className="max-w-6xl w-full rounded-lg mx-auto px-5">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-autorounded-lg bg-cover w-[90%] mx-auto ">
         <div className="w-full text-left  ">
-        <h2 className="text-4xl lg:text-5xl antialiased  font-extrabold mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("title")}</h2>
-        <p className=" text-xl lg:text-2xl antialiased  text-slate-700 xl:px-20 text-left mb-10 ">{t("paragrafo")}</p></div>
+        <h2 className="text-3xl lg:text-4xl antialiased  font-bold !leading-tight mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("title")}</h2>
+        <p className=" text-base lg:text-2xl antialiased md:text-center  text-slate-700 xl:px-20 text-left mb-10 ">{t("paragrafo")}</p></div>
          
       </div>
-      <div className="w-full flex flex-col md:flex-row md:flex-wrap md:justify-center xl:max-w-6xl 2xl:max-w-7xl lg:pl-1 xl:pl-2 xl:m-auto ">
-      <div className="flex flex-col items-left justify-evenly md:m-0 my-2 md:p-5   sm:border-r-2 border-t-2 sm:border-t-0 border-slate-600 lg:w-[30%] w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-        <div className='flex flex-row'>
+      <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3  ">
+      <div className="w-full  ">
+      <div className='mb-10 '>
         <IoIosPaperPlane size={32}/>
-        <h3 className="text-xl pl-5 font-extrabold text-left text-slate-700">{t("unotitulo")}</h3>
         </div>
-        <p className="text-left">{t("unoparagrafo")}</p>
+        <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("unotitulo")}</h3>
+        
+        <p className=" text-base font-medium leading-relaxed pr-[10px] ">{t("unoparagrafo")}</p>
         
       </div >
-      <div className="flex flex-col items-left justify-evenly md:m-0  my-2 md:p-5  sm:border-r-2 border-t-2 sm:border-t-0  border-slate-600 lg:w-[30%] w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-        <div className='flex flex-row'>
+      <div className="w-full  ">
+      <div className='mb-10 '>
       <MdOutlineRealEstateAgent size={32} />
-        <h3 className="text-xl font-extrabold text-left text-slate-700 pl-5">{t("dostitulo")}</h3>
-        </div>
-        <p className="text-left">{t("dosparagrafo")}</p>
+      </div>
+        <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700 ">{t("dostitulo")}</h3>
+        
+        <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("dosparagrafo")}</p>
        
       </div>
-      <div className="flex flex-col items-left justify-evenly md:m-0 md:p-5  my-2   lg:w-[30%] border-t-2 sm:border-t-0 border-slate-600 w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-           <div className='flex flex-row'>  
+      <div className="w-full   ">
+            <div className='mb-10 '>
            <MdConstruction size={32} />
-        <h3 className="text-xl pl-10 font-extrabold text-left text-slate-700">{t("trestitulo")}</h3>
            </div>
-        <p className="text-left">{t("tresparagrafo")}</p>
+        <h3 className="mb-5 text-xl  font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("trestitulo")}</h3>
+           
+        <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("tresparagrafo")}</p>
       
       </div>
-      <div className="flex flex-col items-left justify-evenly md:m-0  my-2 md:p-5  sm:border-r-2 border-slate-600  border-t-2 lg:w-[30%] w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-           <div className='flex flex-row'>  
+      <div className="w-full   ">
+           <div className='mb-10 '> 
            <MdEmergency size={32}/>
-        <h3 className="text-xl pl-5 font-extrabold text-left text-slate-700">{t("fortitulo")}</h3>
            </div>
-        <p className="text-left">{t("forparagrafo")}</p>
+        <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("fortitulo")}</h3>
+           
+        <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("forparagrafo")}</p>
         
       </div>
-      <div className="flex flex-col items-left justify-evenly md:m-0  my-2 md:p-5  sm:border-r-2 border-slate-600 border-t-2 lg:w-[30%] w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-           <div className='flex flex-row'>  
+      <div className="w-full  ">
+           <div className='mb-10 '> 
            <FaHouseChimneyMedical size={32} />
-        <h3 className="text-xl pl-5 font-extrabold text-left text-slate-700">{t("cinctitulo")}</h3>
            </div>
-        <p className="text-left">{t("cincparagrafo")}</p>
+        <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("cinctitulo")}</h3>
+           
+        <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("cincparagrafo")}</p>
         
       </div>
-      <div className="flex flex-col items-left justify-evenly md:m-0  my-2 md:p-5   lg:w-[30%] border-slate-600 border-t-2 w-[90%] md:w-[45%] mx-auto  h-[60vh] md:h-[400px]  ">
-            <div className='flex flex-row' >  
+      <div className="w-full  ">
+             <div className='mb-10 '> 
             <FaHandshake size={32} />
-        <h3 className="text-xl font-extrabold text-left pl-5 text-slate-700">{t("sistitulo")}</h3>
-        </div> 
-        <p className="text-left">{t("sisparagrafo")}</p>
+            </div>
+        <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("sistitulo")}</h3>
+         
+        <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("sisparagrafo")}</p>
         
       </div>
       </div>

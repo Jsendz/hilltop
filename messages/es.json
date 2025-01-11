@@ -58,7 +58,7 @@
 
     "immo": {
         "pagina":"Hilltop Agency - Inmobiliaria",
-        "titulo": "Inmobiliaria.",
+        "title": "Inmobiliaria.",
         "paragrafo":"Uno de los pasos más importantes es encontrar vivienda en Andorra, por eso en HillTop Agency con 10 años de experiencia en el sector inmobiliario, queremos facilitar a nuestros clientes la búsqueda ocupándonos personalmente de todo el proceso. Nos adaptamos a las necesidades de cada cliente con el fin de asegurar la mejor calidad de servicio y experiencia",
         "boton": "Contáctanos"
 
@@ -66,7 +66,7 @@
 
     "conser": {
         "pagina":"Hilltop Agency - Servicios Administrativos y conserjeria",
-        "titulo":"Servicios Administrativos y Consergeria",
+        "title":"Servicios Administrativos y Consergeria",
         "description":"En Hilltop Agency nos dedicamos a simplificar tu vida encargándonos de una variedad de gestiones y trámites, permitiéndote centrarte en lo que realmente importa.",
         "paragrafo":"En Hilltop Agency, entendemos que tu tiempo y tranquilidad son de gran valor. Nos dedicamos a simplificar tu vida ocupándonos de una variedad de gestiones y trámites, permitiéndo enfocarte en lo que realmente importa. A continuación, te presentamos nuestros principales servicios:",
         "unotitulo":"Trámites Administrativos",
@@ -137,7 +137,7 @@
     
     "LocaleSwitcher": {
         "label": "Change language",
-        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT} other {Unknown}}"
+        "locale": "{locale, select, es {ES} en {EN} fr {FR} ca {CAT}}"
       },
 
 
@@ -181,7 +181,10 @@
 
         "tel":"Telefono",
 
-        "ser":"Servicios"
+        "ser":"Servicios",
+
+        "formSuccess": "¡Su formulario ha sido enviado con éxito!",
+        "formError": "Algo salió mal. Por favor, vuelva a intentarlo."
 
       }
 

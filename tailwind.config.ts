@@ -13,7 +13,8 @@ const config = {
    
     extend: {
       backgroundImage: {
-        'forestweb': "url('/forest2.webp')",
+        'forestweb': "url('/forestbg.webp')",
+        'sky': "url('/forest2.webp')"
         
       },
      

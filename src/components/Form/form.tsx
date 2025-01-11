@@ -46,18 +46,18 @@ export function ContactForm() {
       body: JSON.stringify(values),
     }).then(async (response) => {
       if (response.status !== 200 && !response.ok) throw new Error();
-      toast.success("Your form is submited successfully.")
+      toast.success(t('formSuccess'))
       form.reset()
     })
       .catch(() => {
-        toast.error('Something wrong error')
+        toast.error(t('formError'))
       })
   }
 
   return (
     <Form {...form}>
 
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 z-50">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 z-50 bg-slate-800 rounded-lg p-5 text-slate-100">
         <div className="grid grid-cols-2 gap-4">
 
           <FormField
@@ -65,7 +65,7 @@ export function ContactForm() {
             name="firstName"
             render={({ field }) => (
               <FormItem className="space-y-2">
-                <FormLabel>{t("first")}</FormLabel>
+                <FormLabel className="text-slate-100">{t("first")}</FormLabel>
                 <FormControl>
                   <Input autoComplete="cc-given-name" placeholder="name" {...field} />
                 </FormControl>
@@ -80,7 +80,7 @@ export function ContactForm() {
             name="lastName"
             render={({ field }) => (
               <FormItem className="space-y-2">
-                <FormLabel>{t("last")}</FormLabel>
+                <FormLabel className="text-slate-100">{t("last")}</FormLabel>
                 <FormControl>
                   <Input type="text" autoComplete="cc-family-name" placeholder="Singh" {...field} />
                 </FormControl>
@@ -98,7 +98,7 @@ export function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="text-slate-100">Email</FormLabel>
               <FormControl>
                 <Input type="email" autoComplete="email" placeholder="me@example.com" {...field} />
               </FormControl>
@@ -114,7 +114,7 @@ export function ContactForm() {
           name="phoneNumber"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>{t("tel")}</FormLabel>
+              <FormLabel className="text-slate-100">{t("tel")}</FormLabel>
               <FormControl>
                 <Input type="tel" autoComplete="tel" placeholder="+1 (555) 555-5555" {...field} />
               </FormControl>
@@ -128,7 +128,7 @@ export function ContactForm() {
               name="service"
               render={({ field }) => (
                 <FormItem className="space-y-2">
-                  <FormLabel>{t("ser")}</FormLabel>
+                  <FormLabel className="text-slate-100">{t("ser")}</FormLabel>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <SelectTrigger>
                       <SelectValue {...field} placeholder="Select" />
@@ -152,7 +152,7 @@ export function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>{t("Message")}</FormLabel>
+              <FormLabel className="text-slate-100">{t("Message")}</FormLabel>
               <FormControl>
                 <Textarea id="message" placeholder="Your message..." rows={4} {...field} />
               </FormControl>
@@ -162,7 +162,7 @@ export function ContactForm() {
 
 
 
-        <Button className="w-full mt-12" type="submit"> Submit </Button>
+        <Button className="w-full mt-12" type="submit" aria-label="submit"> Submit </Button>
       </form>
     </Form>
   )
