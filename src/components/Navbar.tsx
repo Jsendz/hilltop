@@ -29,7 +29,7 @@ export default function Navbar ({params:{locale}}:Props) {
     
 
       
-      <Image src="/logohilltopagency2.svg" alt="logo" width={100} height={29}   />
+      <Image src="/hilltoplogo.svg" alt="logo" width={100} height={29}   />
  
       </NavigationLink>
       <div className="flex gap-4 w-full justify-center">
