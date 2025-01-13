@@ -18,8 +18,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
   return (
     <div className='w-full bg-gradient-to-bl from-blue-100 via-slate-50 to-slate-50 '>
     <div className='w-full h-full py-36 max-w-7xl mx-auto'>
-           <h2 className='text-3xl xl:text-4xl antialiased font-bold mb-32 text-slate-700 text-left sm:text-center px-5 sm:px-0'> "Hilltop Agency es tu Agencia de confianza en Andorra <br /> Servicio Personalizado de principio a fin." </h2>
-           <h3 className="text-3xl text-center antialiased  font-bold mb-20 mt-20 lg:mt-0 sm:text-left sm:pl-14">Sobre <span className='text-cyan-500'> Hilltop Agency </span></h3>
+           <h2 className='text-3xl xl:text-4xl antialiased font-bold mb-32 text-slate-700 text-left sm:text-center px-5 sm:px-0'> {t("title")}</h2>
+           <h3 className="text-3xl text-center antialiased  font-bold mb-20 mt-20 lg:mt-0 sm:text-left sm:pl-14">{t("titoo")} <span className='text-cyan-500'> Hilltop Agency </span></h3>
     <div className="h-full 2xl:h-screen  xl:max-w-7xl lg:w-[90%]  mx-auto">
         <div className="w-full text-left mb-10 sm:mb-0 px-10">
            <p className="text-base text-slate-700 mb-3">
