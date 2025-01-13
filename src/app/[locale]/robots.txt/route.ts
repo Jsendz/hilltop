@@ -1,11 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextResponse, NextRequest } from 'next/server';
 
-export async function GET({ params }: { params: { locale: string } }) {
-  const locale = params.locale;
+export async function GET(req: NextRequest) {
+  const { pathname } = req.nextUrl; // Extract the pathname
+  const locale = pathname.split('/')[1]; // Extract locale from the path (e.g., "en" or "es")
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://yourwebsite.com';
 
   let sitemapUrl = `${baseUrl}/sitemap.xml`;
-  if (locale !== 'en') {
+  if (locale && locale !== 'default') {
     sitemapUrl = `${baseUrl}/${locale}/sitemap.xml`;
   }
 
