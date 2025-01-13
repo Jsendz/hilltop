@@ -32,9 +32,10 @@ type Props = {
     const t = useTranslations('immo');
 
     return (
-        <div className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:pt-40 bg-gradient-to-bl from-blue-100 via-slate-50 to-slate-50">
+      <div className='w-full bg-gradient-to-bl from-blue-100 via-slate-50 to-slate-50'>
+        <div className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:pt-40 ">
         <div className="w-full h-full mb-20 lg:mb-0 ">
-        <Image src="/lau3.webp" alt="founder's photo" width={300} height={300} className="hidden lg:block" />
+        <Image src="/immocasa3.webp" alt="founder's photo" width={300} height={300} className="w-3/4" />
             
 
       </div>
@@ -50,6 +51,7 @@ type Props = {
         <div>
         
         </div>
+      </div>
       </div>
       </div>
      

@@ -25,11 +25,17 @@ export default function Navbar ({params:{locale}}:Props) {
 
   return (
     <nav className="w-full flex  items-center md:justify-between navbar bg-gradient-to-tl from-blue-100 via-slate-50 to-slate-50" >
-      <NavigationLink href='/'><Image src="/logohilltopagency2.svg" alt="logo" width={100} height={29} className="md:w-full"  /></NavigationLink>
-      <div className="flex gap-4">
+      <NavigationLink href='/' className="w-full">
+    
+
+      
+      <Image src="/logohilltopagency2.svg" alt="logo" width={100} height={29}   />
+ 
+      </NavigationLink>
+      <div className="flex gap-4 w-full justify-center">
       <LanguageSwitcher />
         </div>
-        <div className="w-1/4 hidden md:block">
+        <div className="w-full hidden px-5 md:flex justify-end">
           <Popnav  />
         </div>
        

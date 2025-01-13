@@ -45,13 +45,13 @@ export default function PathnamesPage({params: {locale}}: Props) {
       <div className="max-w-6xl w-full rounded-lg mx-auto px-5">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-autorounded-lg bg-cover w-[90%] mx-auto ">
         <div className="w-full text-left  ">
-        <h2 className="text-3xl lg:text-4xl antialiased  font-bold !leading-tight mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("title")}</h2>
-        <p className=" text-base lg:text-2xl antialiased md:text-center  text-slate-700 xl:px-20 text-left mb-10 ">{t("paragrafo")}</p></div>
+        <h2 className="text-3xl lg:text-5xl antialiased  font-bold !leading-tight mb-10 text-slate-700 pr-0 xl:px-20 text-left xl:text-center ">{t("title")}</h2>
+        <p className=" text-base lg:text-xl antialiased md:text-center  text-slate-700 xl:px-20 text-left mb-10 ">{t("paragrafo")}</p></div>
          
       </div>
       <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3  ">
-      <div className="w-full  ">
-      <div className='mb-10 '>
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl  ">
+      <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '>
         <IoIosPaperPlane size={32}/>
         </div>
         <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("unotitulo")}</h3>
@@ -59,8 +59,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
         <p className=" text-base font-medium leading-relaxed pr-[10px] ">{t("unoparagrafo")}</p>
         
       </div >
-      <div className="w-full  ">
-      <div className='mb-10 '>
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl  ">
+      <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '>
       <MdOutlineRealEstateAgent size={32} />
       </div>
         <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700 ">{t("dostitulo")}</h3>
@@ -68,8 +68,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
         <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("dosparagrafo")}</p>
        
       </div>
-      <div className="w-full   ">
-            <div className='mb-10 '>
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl    ">
+            <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '>
            <MdConstruction size={32} />
            </div>
         <h3 className="mb-5 text-xl  font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("trestitulo")}</h3>
@@ -77,8 +77,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
         <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("tresparagrafo")}</p>
       
       </div>
-      <div className="w-full   ">
-           <div className='mb-10 '> 
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl   ">
+           <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '> 
            <MdEmergency size={32}/>
            </div>
         <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("fortitulo")}</h3>
@@ -86,8 +86,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
         <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("forparagrafo")}</p>
         
       </div>
-      <div className="w-full  ">
-           <div className='mb-10 '> 
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl  ">
+           <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '> 
            <FaHouseChimneyMedical size={32} />
            </div>
         <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("cinctitulo")}</h3>
@@ -95,8 +95,8 @@ export default function PathnamesPage({params: {locale}}: Props) {
         <p className=" text-base font-medium leading-relaxed pr-[10px]">{t("cincparagrafo")}</p>
         
       </div>
-      <div className="w-full  ">
-             <div className='mb-10 '> 
+      <div className="w-full bg-white rounded-xl p-5 shadow-xl  ">
+             <div className='mb-10 bg-cyan-400 rounded-lg p-2 w-[15%] '> 
             <FaHandshake size={32} />
             </div>
         <h3 className="mb-5 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl text-slate-700">{t("sistitulo")}</h3>
